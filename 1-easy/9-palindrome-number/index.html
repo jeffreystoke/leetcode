@@ -1,0 +1,954 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Palindrome Number · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../13-roman-to-integer/" />
+    
+    
+    <link rel="prev" href="../7-reverse-integer/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Easy
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1-two-sum/">
+            
+                <a href="../1-two-sum/">
+            
+                    
+                    Two Sum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../7-reverse-integer/">
+            
+                <a href="../7-reverse-integer/">
+            
+                    
+                    Reverse Integer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Palindrome Number
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../13-roman-to-integer/">
+            
+                <a href="../13-roman-to-integer/">
+            
+                    
+                    Roman to Integer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../14-longest-common-prefix/">
+            
+                <a href="../14-longest-common-prefix/">
+            
+                    
+                    Longest Common Prefix
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../20-valid-parentheses/">
+            
+                <a href="../20-valid-parentheses/">
+            
+                    
+                    Valid Parentheses
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../21-merge-two-sorted-lists/">
+            
+                <a href="../21-merge-two-sorted-lists/">
+            
+                    
+                    Merge Two Sorted Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../26-remove-duplicates-from-sorted-array/">
+            
+                <a href="../26-remove-duplicates-from-sorted-array/">
+            
+                    
+                    Remove Duplicates from Sorted Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../27-remove-element/">
+            
+                <a href="../27-remove-element/">
+            
+                    
+                    Remove Element
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../28-implement-strStr/">
+            
+                <a href="../28-implement-strStr/">
+            
+                    
+                    Implement strStr()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../35-search-insert-position/">
+            
+                <a href="../35-search-insert-position/">
+            
+                    
+                    Search Insert Position
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../40-count-and-say/">
+            
+                <a href="../40-count-and-say/">
+            
+                    
+                    Count and Say
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Medium
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../2-medium/2-add-two-numbers/">
+            
+                <a href="../../2-medium/2-add-two-numbers/">
+            
+                    
+                    Add Two Numbers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../2-medium/3-longest-substring-without-repeating-characters/">
+            
+                <a href="../../2-medium/3-longest-substring-without-repeating-characters/">
+            
+                    
+                    Longest Substring Without Repeating Characters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../2-medium/5-longest-palindromic-substring/">
+            
+                <a href="../../2-medium/5-longest-palindromic-substring/">
+            
+                    
+                    Longest Palindromic Substring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../2-medium/6-zigzag-conversion/">
+            
+                <a href="../../2-medium/6-zigzag-conversion/">
+            
+                    
+                    ZigZag Conversion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../2-medium/8-string-to-integer-atoi/">
+            
+                <a href="../../2-medium/8-string-to-integer-atoi/">
+            
+                    
+                    String to Integer (atoi)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../2-medium/11-container-with-most-water/">
+            
+                <a href="../../2-medium/11-container-with-most-water/">
+            
+                    
+                    Container with Most Water
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../2-medium/12-integer-to-roman/">
+            
+                <a href="../../2-medium/12-integer-to-roman/">
+            
+                    
+                    Integer to Roman
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../2-medium/15-3-sum/">
+            
+                <a href="../../2-medium/15-3-sum/">
+            
+                    
+                    3Sum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../../2-medium/16-3-sum-closest/">
+            
+                <a href="../../2-medium/16-3-sum-closest/">
+            
+                    
+                    3Sum Closest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../../2-medium/17-letter-combinations-of-a-phone-number/">
+            
+                <a href="../../2-medium/17-letter-combinations-of-a-phone-number/">
+            
+                    
+                    Letter Combinations of a Phone Number
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../../2-medium/18-4-sum/">
+            
+                <a href="../../2-medium/18-4-sum/">
+            
+                    
+                    4Sum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../../2-medium/19-remove-n-th-node-from-end-of-list/">
+            
+                <a href="../../2-medium/19-remove-n-th-node-from-end-of-list/">
+            
+                    
+                    Remove Nth Node From End of List
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../../2-medium/22-generate-parentheses/">
+            
+                <a href="../../2-medium/22-generate-parentheses/">
+            
+                    
+                    Generate Parentheses
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../../2-medium/24-swap-nodes-in-pairs/">
+            
+                <a href="../../2-medium/24-swap-nodes-in-pairs/">
+            
+                    
+                    Swap Nodes in Pairs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../../2-medium/29-divide-two-integers/">
+            
+                <a href="../../2-medium/29-divide-two-integers/">
+            
+                    
+                    Divide Two Integers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../../2-medium/31-next-permutation/">
+            
+                <a href="../../2-medium/31-next-permutation/">
+            
+                    
+                    Next Permutation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="../../2-medium/33-search-in-rotated-sorted-array/">
+            
+                <a href="../../2-medium/33-search-in-rotated-sorted-array/">
+            
+                    
+                    Search in Rotated Sorted Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="../../2-medium/34-search-for-a-range/">
+            
+                <a href="../../2-medium/34-search-for-a-range/">
+            
+                    
+                    Search for a Range
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="../../2-medium/36-valid-sudoku/">
+            
+                <a href="../../2-medium/36-valid-sudoku/">
+            
+                    
+                    Valid Sudoku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="../../2-medium/39-combination-sum/">
+            
+                <a href="../../2-medium/39-combination-sum/">
+            
+                    
+                    Combination Sum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.21" data-path="../../2-medium/40-combination-sum-II/">
+            
+                <a href="../../2-medium/40-combination-sum-II/">
+            
+                    
+                    Combination Sum II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.22" data-path="../../2-medium/43-multiply-strings/">
+            
+                <a href="../../2-medium/43-multiply-strings/">
+            
+                    
+                    Multiply Strings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.23" data-path="../../2-medium/46-permutations/">
+            
+                <a href="../../2-medium/46-permutations/">
+            
+                    
+                    Permutations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.24" data-path="../../2-medium/47-permutations-II/">
+            
+                <a href="../../2-medium/47-permutations-II/">
+            
+                    
+                    Permutations II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.25" data-path="../../2-medium/48-rotate-image/">
+            
+                <a href="../../2-medium/48-rotate-image/">
+            
+                    
+                    Rotate Image
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26" data-path="../../2-medium/49-group-anagrams/">
+            
+                <a href="../../2-medium/49-group-anagrams/">
+            
+                    
+                    Group Anagrams
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27" data-path="../../2-medium/50-pow/">
+            
+                <a href="../../2-medium/50-pow/">
+            
+                    
+                    Pow(x, n)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Hard
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../3-hard/4-median-of-two-sorted-arrays/">
+            
+                <a href="../../3-hard/4-median-of-two-sorted-arrays/">
+            
+                    
+                    Median of Two Sorted Arrays
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../3-hard/10-regular-expression-matching/">
+            
+                <a href="../../3-hard/10-regular-expression-matching/">
+            
+                    
+                    Regular Expression Matching
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../3-hard/23-merge-k-sorted-lists/">
+            
+                <a href="../../3-hard/23-merge-k-sorted-lists/">
+            
+                    
+                    Merge k Sorted Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../3-hard/25-reverse-nodes-in-k-group/">
+            
+                <a href="../../3-hard/25-reverse-nodes-in-k-group/">
+            
+                    
+                    Reverse Nodes in k-Group
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../3-hard/30-substring-with-concatenation-of-all-words/">
+            
+                <a href="../../3-hard/30-substring-with-concatenation-of-all-words/">
+            
+                    
+                    Substring with Concatenation of All Words
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../3-hard/32-longest-valid-parentheses/">
+            
+                <a href="../../3-hard/32-longest-valid-parentheses/">
+            
+                    
+                    Longest Valid Parentheses
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../3-hard/37-sudoku-solver/">
+            
+                <a href="../../3-hard/37-sudoku-solver/">
+            
+                    
+                    Sudoku Solver
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../../3-hard/41-first-missing-positive/">
+            
+                <a href="../../3-hard/41-first-missing-positive/">
+            
+                    
+                    First Missing Positive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../../3-hard/42-trapping-rain-water/">
+            
+                <a href="../../3-hard/42-trapping-rain-water/">
+            
+                    
+                    Trapping Rain Water
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../../3-hard/44-wildcard-matching/">
+            
+                <a href="../../3-hard/44-wildcard-matching/">
+            
+                    
+                    Wildcard Matching
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../../3-hard/45-jump-game-II/">
+            
+                <a href="../../3-hard/45-jump-game-II/">
+            
+                    
+                    Jump Game II
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Palindrome Number</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="palindrome-number">Palindrome Number</h1>
+<p>Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.</p>
+<p>Example 1:</p>
+<pre><code class="lang-text">Input: 121
+Output: true
+</code></pre>
+<p>Example 2:</p>
+<pre><code class="lang-text">Input: -121
+Output: false
+</code></pre>
+<p>Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.</p>
+<p>Example 3:</p>
+<pre><code class="lang-text">Input: 10
+Output: false
+</code></pre>
+<p>Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+Follow up:</p>
+<p>Coud you solve it without converting the integer to a string?</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../7-reverse-integer/" class="navigation navigation-prev " aria-label="Previous page: Reverse Integer">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../13-roman-to-integer/" class="navigation navigation-next " aria-label="Next page: Roman to Integer">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Palindrome Number","level":"1.2.3","depth":2,"next":{"title":"Roman to Integer","level":"1.2.4","depth":2,"path":"1-easy/13-roman-to-integer/README.md","ref":"1-easy/13-roman-to-integer/README.md","articles":[]},"previous":{"title":"Reverse Integer","level":"1.2.2","depth":2,"path":"1-easy/7-reverse-integer/README.md","ref":"1-easy/7-reverse-integer/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"1-easy/9-palindrome-number/README.md","mtime":"2018-04-29T03:33:39.346Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-29T03:36:09.682Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

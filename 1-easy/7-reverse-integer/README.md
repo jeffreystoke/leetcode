@@ -25,3 +25,16 @@ Output: 21
 
 Note:
 Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+
+## Key
+
+## Solutions
+
+- [C](./Solution.c)
+- [C++](./Solution.cpp)
+- [Go](./Solution.go)
+- [Java](./Solution.java)
+- [JavaScript](./Solution.js)
+- [Kotlin](./Solution.kt)
+- [Python 3](./Solution.py)
+- [Scala](./Solution.scala)

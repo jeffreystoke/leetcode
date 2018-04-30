@@ -21,3 +21,16 @@ Explanation: The minimum number of jumps to reach the last index is 2.
 Note:
 
 You can assume that you can always reach the last index.
+
+## Key
+
+## Solutions
+
+- [C](./Solution.c)
+- [C++](./Solution.cpp)
+- [Go](./Solution.go)
+- [Java](./Solution.java)
+- [JavaScript](./Solution.js)
+- [Kotlin](./Solution.kt)
+- [Python 3](./Solution.py)
+- [Scala](./Solution.scala)

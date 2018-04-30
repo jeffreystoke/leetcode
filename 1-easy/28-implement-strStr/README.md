@@ -23,3 +23,16 @@ Clarification:
 What should we return when `needle` is an empty string? This is a great question to ask during an interview.
 
 For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's strstr() and Java's indexOf().
+
+## Key
+
+## Solutions
+
+- [C](./Solution.c)
+- [C++](./Solution.cpp)
+- [Go](./Solution.go)
+- [Java](./Solution.java)
+- [JavaScript](./Solution.js)
+- [Kotlin](./Solution.kt)
+- [Python 3](./Solution.py)
+- [Scala](./Solution.scala)

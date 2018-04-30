@@ -60,3 +60,16 @@ Output: -2147483648
 Explanation: The number "-91283472332" is out of the range of a 32-bit signed integer.
              Thefore INT_MIN (−231) is returned.
 ```
+
+## Key
+
+## Solutions
+
+- [C](./Solution.c)
+- [C++](./Solution.cpp)
+- [Go](./Solution.go)
+- [Java](./Solution.java)
+- [JavaScript](./Solution.js)
+- [Kotlin](./Solution.kt)
+- [Python 3](./Solution.py)
+- [Scala](./Solution.scala)

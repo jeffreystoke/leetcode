@@ -23,3 +23,16 @@ Example 2:
 Input: nums = [4,5,6,7,0,1,2], target = 3
 Output: -1
 ```
+
+## Key
+
+## Solutions
+
+- [C](./Solution.c)
+- [C++](./Solution.cpp)
+- [Go](./Solution.go)
+- [Java](./Solution.java)
+- [JavaScript](./Solution.js)
+- [Kotlin](./Solution.kt)
+- [Python 3](./Solution.py)
+- [Scala](./Solution.scala)

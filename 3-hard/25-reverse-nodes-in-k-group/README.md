@@ -16,3 +16,16 @@ Note:
 
 - Only constant extra memory is allowed.
 - You may not alter the values in the list's nodes, only nodes itself may be changed.
+
+## Key
+
+## Solutions
+
+- [C](./Solution.c)
+- [C++](./Solution.cpp)
+- [Go](./Solution.go)
+- [Java](./Solution.java)
+- [JavaScript](./Solution.js)
+- [Kotlin](./Solution.kt)
+- [Python 3](./Solution.py)
+- [Scala](./Solution.scala)

@@ -59,3 +59,16 @@ Note:
 - Only the filled cells need to be validated according to the mentioned rules.
 - The given board contain only digits 1-9 and the character '.'.
 - The given board size is always 9x9.
+
+## Key
+
+## Solutions
+
+- [C](./Solution.c)
+- [C++](./Solution.cpp)
+- [Go](./Solution.go)
+- [Java](./Solution.java)
+- [JavaScript](./Solution.js)
+- [Kotlin](./Solution.kt)
+- [Python 3](./Solution.py)
+- [Scala](./Solution.scala)

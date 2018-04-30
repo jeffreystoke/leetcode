@@ -22,3 +22,16 @@ Note:
 1. Both num1 and num2 contain only digits 0-9.
 1. Both num1 and num2 do not contain any leading zero, except the number 0 itself.
 1. You must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+## Key
+
+## Solutions
+
+- [C](./Solution.c)
+- [C++](./Solution.cpp)
+- [Go](./Solution.go)
+- [Java](./Solution.java)
+- [JavaScript](./Solution.js)
+- [Kotlin](./Solution.kt)
+- [Python 3](./Solution.py)
+- [Scala](./Solution.scala)
